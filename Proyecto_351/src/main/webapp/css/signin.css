@@ -1,0 +1,42 @@
+html,
+ body{
+     /*Estilo del cuerpo de la pagina*/
+     height: 100%;
+     color: #484554;
+ }
+        /*Estilo del formulario de login */
+ body{
+     display: flex; /* Permite centrar el contenido vertical y horizontalmente */
+     align-items: center; /* Alinea verticalmente el contenido del formulario */
+     padding-top: 40px;
+     padding-bottom: 40px;
+     background-color: #f5f5f5; /* Establece el color de fondo del formulario */
+ }
+
+.form-signin {
+    max-width: 330px; /* Ancho máximo del formulario */
+    padding: 15px; /* Relleno del formulario */
+}
+
+.form-signin .form-floating:focus-within{
+    z-index: 2; /* Asegura que los elementos de formulario estén en primer plano */
+}
+
+.form-signin input[type="text"] {
+    margin-bottom: -1px; /* Establece la posición del borde inferior del campo de texto */
+    border-bottom-right-radius: 0; /* Da estilo a las esquinas del borde inferior */
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"]{
+    margin-bottom: 10px; /* Establece la posición del borde superior del campo de contraseña */
+    border-top-left-radius: 0; /* Da estilo a las esquinas del borde superior */
+    border-top-right-radius: 0;
+}
+
+#register {
+    padding: 1.5rem; /* Relleno para el botón de registro */
+}
+
+
+
